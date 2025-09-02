@@ -484,7 +484,7 @@ function Board() {
           border: '2px dashed #e2e8f0',
           textAlign: 'center'
         }}>
-          <div style={{ fontSize: '48px', marginBottom: '16px' }}>📋</div>
+          <div style={{ fontSize: '48px', marginBottom: '16px' }}>ðŸ“‹</div>
           <h3 style={{ fontSize: '20px', fontWeight: '600', color: '#1e293b', marginBottom: '8px' }}>
             No task lists yet
           </h3>

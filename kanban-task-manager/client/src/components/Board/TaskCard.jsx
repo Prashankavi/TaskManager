@@ -213,10 +213,10 @@ function TaskCard({ task, onClick, isDragging }) {
           color: '#64748b'
         }}>
           {task.description && (
-            <span title="Has description">📝</span>
+            <span title="Has description">ðŸ“</span>
           )}
           {task.labels && task.labels.length > 0 && (
-            <span title={`${task.labels.length} labels`}>🏷️ {task.labels.length}</span>
+            <span title={`${task.labels.length} labels`}>ðŸ·ï¸ {task.labels.length}</span>
           )}
         </div>
       </div>
