@@ -237,10 +237,6 @@ cd backend && node server.js
 - [ ] Notifications system
 - [ ] Mobile app version
 
-## 📧 Support
 
-For support and questions, please open an issue in the repository or contact the development team.
-
----
 
 Built with ❤️ using React and Node.js
