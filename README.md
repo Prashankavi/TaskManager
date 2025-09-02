@@ -175,58 +175,6 @@ A full-stack task management application with drag-and-drop functionality built 
 - `PUT /api/tasks/:id` - Update task
 - `DELETE /api/tasks/:id` - Delete task
 
-## 🎨 Component Architecture
-
-### Main Components
-
-#### Dashboard.jsx
-- Main landing page after login
-- Displays all user boards
-- Shows urgent task notifications
-- Board creation and management
-
-#### Board.jsx
-- Individual board view
-- Drag-and-drop functionality for lists and tasks
-- List management (create, update, delete)
-- Auto-save functionality
-
-#### TaskList.jsx
-- Individual list component
-- Task creation form
-- Task ordering and management
-- Color-coded by list type
-
-#### TaskCard.jsx
-- Individual task display
-- Priority indicators
-- Due date status
-- Label management
-
-#### TaskModal.jsx
-- Comprehensive task editing interface
-- Full task details management
-
-### Supporting Components
-
-#### DragHandle.jsx
-- Drag-and-drop functionality wrapper
-- Visual feedback during dragging
-
-## 🎨 Styling & Themes
-
-### Design System
-- **Primary Colors**: Teal and blue accent colors
-- **Priority Colors**: 
-  - Urgent: Red (#dc2626)
-  - High: Orange (#f59e0b)
-  - Medium: Yellow (#a16207)
-  - Low: Green (#065f46)
-
-### Responsive Design
-- Mobile-first approach
-- Flexible grid layouts
-- Touch-friendly drag interactions
 
 ## 🚦 Usage Guide
 
@@ -276,24 +224,6 @@ cd frontend && npm run build
 # Start production server
 cd backend && node server.js
 ```
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create feature branch (`git checkout -b feature/new-feature`)
-3. Commit changes (`git commit -am 'Add new feature'`)
-4. Push to branch (`git push origin feature/new-feature`)
-5. Create Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🐛 Known Issues
-
-- Drag performance may be affected with large numbers of tasks
-- Mobile drag-and-drop has limited touch feedback
-- Auto-save debounce may cause temporary UI inconsistencies
 
 ## 🚀 Future Enhancements
 
